@@ -1,0 +1,51 @@
+
+╔══════════════════════════════════════════════════════════╗
+║          YOUTUBE DOWNLOADER - INSTRUCCIONES              ║
+╚══════════════════════════════════════════════════════════╝
+
+📦 CONTENIDO DEL PAQUETE:
+   • YouTubeDownloader.exe - Aplicación principal
+
+🚀 CÓMO USAR:
+
+   1. Ejecuta "YouTubeDownloader.exe"
+   
+   2. Se abrirá automáticamente tu navegador en:
+      http://127.0.0.1:8000
+      
+   3. Pega la URL del video de YouTube
+   
+   4. Selecciona el formato:
+      • MP4 - Video en máxima calidad (hasta 4K)
+      • MP3 - Audio en alta calidad (M4A/AAC)
+      
+   5. Haz clic en "Descargar"
+   
+   6. El archivo se guardará en tu carpeta de Descargas
+
+⚠️ NOTAS IMPORTANTES:
+
+   • La primera vez puede tardar un poco en iniciar
+   • Necesitas conexión a Internet
+   • Para descargar MP4 en máxima calidad, se recomienda
+     tener FFmpeg instalado (opcional)
+   • Los archivos se descargan en la carpeta "downloads"
+     junto al ejecutable
+
+🔧 SOLUCIÓN DE PROBLEMAS:
+
+   • Si no se abre el navegador automáticamente, abre:
+     http://127.0.0.1:8000
+     
+   • Si aparece un error de firewall, permite el acceso
+   
+   • Para cerrar la aplicación, cierra la ventana de consola
+
+📝 FORMATOS SOPORTADOS:
+
+   • MP4: Video con audio (máxima calidad disponible)
+   • M4A: Audio de alta calidad (AAC)
+
+═══════════════════════════════════════════════════════════
+
+Desarrollado con Python, FastAPI y yt-dlp

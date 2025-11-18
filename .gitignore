@@ -6,7 +6,6 @@ __pycache__/
 .Python
 build/
 develop-eggs/
-dist/
 downloads/
 eggs/
 .eggs/
@@ -42,11 +41,6 @@ downloads/*.mp4
 downloads/*.m4a
 downloads/*.mp3
 !downloads/.gitkeep
-
-# Build
-*.spec
-BUILD_RELEASE.bat
-YouTubeDownloader_v*.zip
 
 # Logs
 *.log
